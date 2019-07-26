@@ -1,5 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
 $body-color: blue;
+$font-family: "Indie Flower", cursive;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-family;
   color: $body-color;
+  height: 100%;
+  font-weight: 300;
+
+  .main {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .chat--page {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  .login--page .login__page-form {
+    height: 100px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+  }
+
+  .login--page  {
+    background-color: black;
+  }
+
+  .login--page .login__page-form .login--page_title-usernameInput{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 400px;
+}
+
+.login--page .login--page_title {
+  font-size: 200%;
+}
+
+.login--page .login--page_title-usernameInput {
+  font-size: 200%;
+  letter-spacing: 3px;
+}
+
+.login--page .login--page_title .login--page_title-usernameInput {
+  color: white;
+  font-weight: 100;
+}
+
+  input {
+    font-family: $font-family;
+  }
+
+  ul {
+    list-style: none;
+    word-wrap: break-word;
+  }
 }

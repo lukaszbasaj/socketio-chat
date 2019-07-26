@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='description', content='Some description')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title socket.io chat
+body
+    section(class='main')
+        ul(class='chat')
+            li(class='chat--page')
+                div(class='chat--page_chatArea')
+                    ul(class='chat--page_messages')
+                input(class='chat--page_messages-inputMessage' placeholder="Type your message here...")
+            li(class='login--page')
+                div(class='login__page-form')
+                    h3(class='login--page_title') Identify as:
+                    input(class='login--page_title-usernameInput' type="text" maxlength="14")
+                    

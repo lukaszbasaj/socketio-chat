@@ -29,7 +29,7 @@ module.exports = {
       filename: 'index.html',
       template : Path.resolve(__dirname, '../src/index.pug'),
       inject   : true
-  ],
+    })],
   resolve: {
     alias: {
       '~': Path.resolve(__dirname, '../src')
