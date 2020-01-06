@@ -1,5 +1,115 @@
-$body-color: blue;
+// @import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+// $body-color: blue;
+// $font-family: "Indie Flower", cursive;
 
-body {
-  color: $body-color;
-}
+// *,
+// *::before,
+// *::after {
+//   box-sizing: border-box;
+// }
+
+// body {
+//   margin: 0;
+//   padding: 0;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   font-family: $font-family;
+//   color: $body-color;
+//   height: 100%;
+//   font-weight: 300;
+
+//   .main {
+//     height: 100%;
+//     margin: 0;
+//     padding: 0;
+//     width: 100%;
+//   }
+
+//   .chat--page {
+//     height: 100%;
+//     position: absolute;
+//     width: 100%;
+//   }
+
+//   .login--page,
+//   .login__page-form {
+//     height: 100px;
+//     margin-top: -100px;
+//     position: absolute;
+//     text-align: center;
+//     top: 50%;
+//     width: 100%;
+//   }
+
+//   .login--page {
+//     background-color: black;
+//   }
+
+//   .login--page,
+//   .login__page-form,
+//   .login--page_title-usernameInput {
+//     background-color: transparent;
+//     border: none;
+//     border-bottom: 2px solid white;
+//     outline: none;
+//     padding-bottom: 15px;
+//     text-align: center;
+//     width: 400px;
+//   }
+
+//   .login--page,
+//   .login--page_title {
+//     font-size: 200%;
+//   }
+
+//   .login--page,
+//   .login--page_title-usernameInput {
+//     font-size: 200%;
+//     letter-spacing: 3px;
+//   }
+
+//   .login--page,
+//   .login--page_title,
+//   .login--page_title-usernameInput {
+//     color: white;
+//     font-weight: 100;
+//   }
+
+//   .chat--page_messages {
+//     font-size: 150%;
+//   }
+
+//   .chat--page_chatArea {
+//     height: 100%;
+//     padding-bottom: 60px;
+//   }
+
+//   .chat--page_messages {
+//     height: 100%;
+//     margin: 0;
+//     overflow-y: scroll;
+//     padding: 10px 20px 10px 20px;
+//   }
+
+//   .login--page_title-usernameInput {
+//     border: 10px solid black;
+//     bottom: 0;
+//     height: 60px;
+//     left: 0;
+//     outline: none;
+//     padding-left: 10px;
+//     position: absolute;
+//     right: 0;
+//     width: 100%;
+//     font-size: 100%;
+//   }
+//   input {
+//     font-family: $font-family;
+//   }
+
+//   ul {
+//     list-style: none;
+//     word-wrap: break-word;
+//   }
+// }
