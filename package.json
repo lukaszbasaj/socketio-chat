@@ -45,7 +45,7 @@
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1",
     "webpack-merge": "^4.2.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "serve-favicon": "^2.5.0",
     "socket.io": "^2.2.0"
   },
